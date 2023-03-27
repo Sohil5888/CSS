@@ -1,0 +1,21 @@
+h3{
+    color: blueviolet;
+}
+/* p{ */
+    background-color: blueviolet;
+    color: aquamarine;
+}
+.color{
+    color: brown;
+}
+.fsize15{
+    font-size: 25px;
+}
+#color{
+    color: chartreuse;
+}
+p,#i,.italic{
+    background-color: cornflowerblue;
+    color: yellow;
+    width: 500px;
+}
