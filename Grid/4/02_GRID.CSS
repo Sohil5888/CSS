@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    background-color: dodgerblue;
+    display: grid;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+}
+
+#id_2{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+
+.div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+}
