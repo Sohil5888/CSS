@@ -1,0 +1,40 @@
+section{
+    /* width: 100%; */
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px;
+    /* border: 1px solid; */
+}
+
+
+
+.ul li{
+    display: inline-block;
+    padding: 0px 11px;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    /* color: rgba(74, 75, 84, 0.7); */
+}
+.ul li a{
+    text-decoration: none;
+    color: rgba(44,46,63,.7);
+}
+.logo img{
+    width: 118px;
+    padding-top: 18px;
+}
+.icon i{
+    padding: 18px;
+    font-size: 1.5rem;
+}
+.nav_1{
+    display: flex;
+}
+.i_frame iframe{
+    width: 400px;
+    height: 200px;
+}
