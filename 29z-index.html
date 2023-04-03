@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 400px;
+            height: 500px;
+            position: absolute;
+        }
+
+        #item1 {
+            background-color: red;
+            top: 50px;
+            left: 100px;
+            z-index: 2;
+        }
+
+        #item2 {
+            top: 100px;
+            left: 150px;
+            background-color: rgb(153, 255, 0);
+        }
+
+        #item3 {
+            top: 150px;
+            left: 200px;
+            z-index: 1;
+            background-color: rgb(38, 0, 255);
+        }
+
+        #item4 {
+            top: 200px;
+            left: 250px;
+            background-color: rgb(255, 0, 200);
+        }
+
+        #item5 {
+            top: 250px;
+            left: 300px;
+            background-color: rgb(255, 238, 0);
+            /* z-index: -3; */
+        }
+    </style>
+</head>
+
+<body>
+
+    <section>
+        <div class="box" id="item1"></div>
+        <div class="box" id="item2"></div>
+        <div class="box" id="item3"></div>
+        <div class="box" id="item4"></div>
+        <div class="box" id="item5"></div>
+    </section>
+
+</body>
+
+</html>

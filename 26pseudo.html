@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-letter {
+            font-size: 50px;
+        }
+
+        p::first-line {
+            background-color: darkgoldenrod;
+        }
+
+        h1::after {
+            content: "~";
+        }
+
+        h1::before {
+            content: "~";
+        }
+
+        p::selection {
+            background-color: darkgreen;
+        }
+
+        a {
+            font-size: 40px;
+        }
+
+        a:visited {
+            color: hotpink;
+        }
+
+        a:link {
+            background-color: crimson;
+        }
+
+        h1:hover {
+            background-color: rebeccapurple;
+        }
+        input:focus{
+            background-color: darkgoldenrod;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>data</h1>
+    <input type="text">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quasi expedita soluta culpa reprehenderit non,
+        odio porro voluptate commodi. Eius id obcaecati eum, suscipit rem nulla asperiores delectus ducimus facilis.</p>
+    <a href="#">home</a>
+
+</body>
+
+</html>
